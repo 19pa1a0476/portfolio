@@ -5,7 +5,7 @@ import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   // ✅ Load model from public folder
-  const computer = useGLTF("/desktop_pc/scene.glb");
+  const computer = useGLTF("/desktop_pc/scene-mobile.glb");
 
   return (
     <mesh>
