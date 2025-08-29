@@ -18,14 +18,16 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Shyam</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Award-winning Software Developer & GenAI Consultant.<br className="sm:block hidden" />
-            Specialist in Java, Python, LLMs, and cloud-based AI solutions.<br className="sm:block hidden" />
-            {/* <span className="italic text-secondary">“See a need, fill a need.” – Bigweld</span> */}
+            Innovative, award-winning Software Developer & GenAI Consultant.<br className="sm:block hidden" />
+            Specialist in Python, JavaFReact, LLMs, and scalable cloud-based AI solutions.<br className="sm:block hidden" />
+            Architected AI platforms and IDE plugins adopted by industry leaders, recognized for technology-driven impact.<br className="sm:block hidden" />
+            <span className="italic text-secondary">“Great vision without great people is irrelevant.” – Jim Collins</span>
           </p>
+
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
