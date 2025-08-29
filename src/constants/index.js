@@ -53,11 +53,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React Developer",
+    title: "Python Developer",
     icon: web,
   },
   {
-    title: "Django Developer",
+    title: "AI Developer",
     icon: backend,
   },
   {
@@ -65,7 +65,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Project Lead",
+    title: "Team Player",
     icon: creator,
   },
 ];
@@ -78,10 +78,6 @@ const technologies = [
   {
     name: "Django",
     icon: django,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
   },
   {
     name: "Postgres",
@@ -98,11 +94,7 @@ const technologies = [
   {
     name: "CSS 3",
     icon: css,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  }
 ];
 
 const experiences = [
