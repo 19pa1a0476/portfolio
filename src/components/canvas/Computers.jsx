@@ -1,35 +1,31 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import * as THREE from "three";
+
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  // ✅ Load model from public folder
   const computer = useGLTF("/desktop_pc/scene-mobile.glb");
 
-  return (
-    <mesh>
-      {/* ✅ Lighting adjusted for mobile */}
-      <ambientLight intensity={0.3} />
-      <hemisphereLight intensity={0.15} groundColor="black" />
-      <spotLight
-        position={[-20, 50, 10]}
-        angle={0.12}
-        penumbra={1}
-        intensity={1}
-        castShadow
-        shadow-mapSize={1024}
-      />
-      <pointLight intensity={1} />
+  // ✅ Debugging: force wireframe + red material
+  computer.scene.traverse((child) => {
+    if (child.isMesh) {
+      // Try wireframe first
+      // child.material.wireframe = true;
 
-      {/* ✅ Adjusted scale & position for mobile */}
-      <primitive
-        object={computer.scene}
-        scale={isMobile ? 0.7 : 0.65}
-        position={isMobile ? [0, -2.5, -1.5] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
-      />
-    </mesh>
+      // Or force basic red material
+      child.material = new THREE.MeshBasicMaterial({ color: "red" });
+    }
+  });
+
+  return (
+    <primitive
+      object={computer.scene}
+      scale={1}              // keep it simple
+      position={[0, -1, 0]}  // center-ish
+      rotation={[0, 0, 0]}   // no tilt
+    />
   );
 };
 
@@ -37,9 +33,7 @@ const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // ✅ Detect mobile screen size
     const mediaQuery = window.matchMedia("(max-width: 500px)");
-
     setIsMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = (event) => {
@@ -47,7 +41,6 @@ const ComputersCanvas = () => {
     };
 
     mediaQuery.addEventListener("change", handleMediaQueryChange);
-
     return () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
@@ -55,23 +48,27 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      style={{ width: "100%", height: "100%" }} // ✅ ensure full height on mobile
-      frameloop="demand"
       shadows
-      dpr={[1, 2]} // ✅ safe for mobile
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      frameloop="demand"
+      dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
+      camera={{
+        fov: 50,
+        near: 0.1,
+        far: 200,
+        position: [0, 1, 5], // neutral position
+      }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls
-          enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
-        />
-        <Computers isMobile={isMobile} />
-      </Suspense>
+        <OrbitControls enableZoom={true} />
 
-      <Preload all />
+        {/* Strong lights for testing */}
+        <ambientLight intensity={1.5} />
+        <directionalLight position={[5, 5, 5]} intensity={2} />
+
+        <Computers isMobile={isMobile} />
+        <Preload all />
+      </Suspense>
     </Canvas>
   );
 };
