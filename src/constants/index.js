@@ -147,85 +147,45 @@ const testimonials = [
 
 const projects = [
   {
-    name: "SteganoHide",
+    name: "IBPL Code Generation Using LangChain",
     description:
-      "SteganoHide is an innovative steganography website allowing users to securely embed and retrieve encrypted text within images. The platform encrypts user-provided text with a password, concealing it within the image. Offering multiple encryption algorithms, tampering detection, and privacy measures. It serves as a user-friendly and versatile tool for secure communication and data storage.",
+      "Developed an AI-powered Streamlit app for O9 Solutions, leveraging Retrieval-Augmented Generation and LangChain for automated IBPL code generation. Built Flask backend with webhook integration, optimized for real-time code generation and user-specific logging using OAuth and MySQL. Achieved 30% faster processing with Qdrant Vector DB.",
     tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Django",
-        color: "green-text-gradient",
-      },
-      {
-        name: "PostgreSQL",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Steganography",
-        color: "green-text-gradient",
-      },
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "LangChain", color: "green-text-gradient" },
+      { name: "Flask", color: "pink-text-gradient" },
+      { name: "Streamlit", color: "blue-text-gradient" },
+      { name: "MySQL", color: "green-text-gradient" },
     ],
-    image: stegano,
-    source_code_link: "https://github.com/Shyamchoudhary11/SteganoHide",
+    image: "",
+    source_code_link: "",
   },
   {
-    name: "Ideator",
+    name: "Iris Flower Classification",
     description:
-      "Ideator is a web-based platform designed to enhance your ideas by providing personalized project suggestions aligned with your skills and interests: offering an idea generation process, and delivering tailored and innovative concepts. The platform emphasizes data security with strong authentication features and boasts a visually appealing and user-friendly interface.",
+      "Created a machine learning classifier to identify iris flower species using Decision Tree algorithm, achieving 96% accuracy. Compared models (XGBoost, Random Forest, Logistic Regression) and implemented preprocessing for improved efficiency. Deployed via Flask API for real-time predictions with visualizations using Matplotlib and Seaborn.",
     tags: [
-      {
-        name: "OpenAI API",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "React.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "PostgreSQL",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Django",
-        color: "blue-text-gradient",
-      },
-
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Scikit-learn", color: "pink-text-gradient" },
+      { name: "Flask", color: "green-text-gradient" },
+      { name: "Pandas", color: "blue-text-gradient" },
     ],
-    image: ideator,
-    source_code_link: "https://github.com/Shyamchoudhary11/Ideator",
+    image: "",
+    source_code_link: "",
   },
   {
-    name: "LeetConnect",
+    name: "Iris Flower Classification",
     description:
-      "LeetConnect is a browser extension that enhances the LeetCode platform by allowing users to follow others, access solutions, and seamlessly integrate a search box. The implementation involves React components for user interactions, while DRF ensures a robust backend for user management and data retrieval.",
+      "Created a machine learning classifier to identify iris flower species using Decision Tree algorithm, achieving 96% accuracy. Compared models (XGBoost, Random Forest, Logistic Regression) and implemented preprocessing for improved efficiency. Deployed via Flask API for real-time predictions with visualizations using Matplotlib and Seaborn.",
     tags: [
-      {
-        name: "Docker",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Google Chrome API",
-        color: "green-text-gradient",
-      },
-      {
-        name: "DjangoRestFramework",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Browser Extension",
-        color: "pink-text-gradient",
-      },
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Scikit-learn", color: "pink-text-gradient" },
+      { name: "Flask", color: "green-text-gradient" },
+      { name: "Pandas", color: "blue-text-gradient" },
     ],
-    image: leetconnect,
-    source_code_link: "https://github.com/Shyamchoudhary11/leetconnect",
-  },
+    image: "",
+    source_code_link: "",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
