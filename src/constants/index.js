@@ -29,7 +29,10 @@ import {
   ideator,
   leetconnect,
   gssoc,
-  kwiqreply
+  kwiqreply,
+  dora,
+  o9_solution,
+  crew_ai
 } from "../assets";
 
 export const navLinks = [
@@ -139,7 +142,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "IBPL Code Generation Using LangChain",
+    name: "DORA - AI Chatbot",
     description:
       "Developed an AI-powered Streamlit app for O9 Solutions, leveraging Retrieval-Augmented Generation and LangChain for automated IBPL code generation. Built Flask backend with webhook integration, optimized for real-time code generation and user-specific logging using OAuth and MySQL. Achieved 30% faster processing with Qdrant Vector DB.",
     tags: [
@@ -149,11 +152,11 @@ const projects = [
       { name: "Streamlit", color: "blue-text-gradient" },
       { name: "MySQL", color: "green-text-gradient" },
     ],
-    image: "",
+    image: dora,
     source_code_link: "",
   },
   {
-    name: "Iris Flower Classification",
+    name: "CrewAI Agent",
     description:
       "Created a machine learning classifier to identify iris flower species using Decision Tree algorithm, achieving 96% accuracy. Compared models (XGBoost, Random Forest, Logistic Regression) and implemented preprocessing for improved efficiency. Deployed via Flask API for real-time predictions with visualizations using Matplotlib and Seaborn.",
     tags: [
@@ -162,20 +165,20 @@ const projects = [
       { name: "Flask", color: "green-text-gradient" },
       { name: "Pandas", color: "blue-text-gradient" },
     ],
-    image: "",
+    image: crew_ai,
     source_code_link: "",
   },
   {
-    name: "Iris Flower Classification",
+    name: "IBPL Code Generator",
     description:
-      "Created a machine learning classifier to identify iris flower species using Decision Tree algorithm, achieving 96% accuracy. Compared models (XGBoost, Random Forest, Logistic Regression) and implemented preprocessing for improved efficiency. Deployed via Flask API for real-time predictions with visualizations using Matplotlib and Seaborn.",
+      "Developed an AI-powered Streamlit app for O9 Solutions, leveraging Retrieval-Augmented Generation and LangChain for automated IBPL code generation. Built Flask backend with webhook integration, optimized for real-time code generation and user-specific logging using OAuth and MySQL. Achieved 30% faster processing with Qdrant Vector DB.",
     tags: [
       { name: "Python", color: "blue-text-gradient" },
       { name: "Scikit-learn", color: "pink-text-gradient" },
       { name: "Flask", color: "green-text-gradient" },
       { name: "Pandas", color: "blue-text-gradient" },
     ],
-    image: "",
+    image: o9_solution,
     source_code_link: "",
   }
 ];
