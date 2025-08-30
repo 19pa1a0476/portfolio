@@ -6,7 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import dora from "./dora.png";
+import crew_ai from "./crew_ai.png";
+import o9_solution from "./o9_solution.png";
 import django from "./tech/django.png";
 import python from "./tech/python.png";
 import postgres from "./tech/postgres.png";
@@ -74,4 +76,7 @@ export {
   leetconnect,
   gssoc,
   kwiqreply,
+  dora,
+  o9_solution,
+  crew_ai
 };

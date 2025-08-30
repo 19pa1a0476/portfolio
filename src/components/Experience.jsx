@@ -8,13 +8,15 @@ import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import G from "../assets/g.png";
+import study_owl from "../assets/study_owl.png";
 
 // Experience data extracted from your resume
 const experiences = [
   {
     title: "Consultant",
     company_name: "Genpact",
-    icon: "", // keep empty or provide image as needed
+    icon: G, // keep empty or provide image as needed
     iconBg: "#ffffff",
     date: "Jul 2023 – Present",
     points: [
@@ -33,7 +35,7 @@ const experiences = [
   {
     title: "Full Stack Developer Intern",
     company_name: "Study Owl Private Limited",
-    icon: "", // keep empty or provide image as needed
+    icon: study_owl, // keep empty or provide image as needed
     iconBg: "#ffffff",
     date: "Jan 2023 – Jun 2023",
     points: [
