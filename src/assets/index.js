@@ -12,6 +12,9 @@ import o9_solution from "./o9_solution.png";
 import django from "./tech/django.png";
 import python from "./tech/python.png";
 import postgres from "./tech/postgres.png";
+import java from "./tech/java.png";
+import vectordb from "./tech/vectordb.png";
+import streamlit from "./tech/streamlit.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -19,12 +22,19 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import aws from "./tech/aws.png";
+import azure from "./tech/azure.png";
+import jenkins from "./tech/jenkins.png";
+import kafka from "./tech/kafka.png";
+import linux from "./tech/linux.png";
+import kubernetes from "./tech/kubernetes.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import langchain from "./tech/langchain.png";
+import langflow from "./tech/langflow.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -50,7 +60,6 @@ export {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   django,
@@ -78,5 +87,17 @@ export {
   kwiqreply,
   dora,
   o9_solution,
-  crew_ai
+  crew_ai,
+  langchain,
+  langflow,
+  java,
+  vectordb,
+  aws,
+  azure,
+  docker,
+  jenkins,
+  kafka,
+  linux,
+  kubernetes,
+  streamlit
 };
