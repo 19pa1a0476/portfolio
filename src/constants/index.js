@@ -153,7 +153,7 @@ const projects = [
       { name: "MySQL", color: "green-text-gradient" },
     ],
     image: dora,
-    source_code_link: "",
+    source_code_link: "https://github.com/19pa1a0476/enterprise-ai-chatbot-backend",
   },
   {
     name: "CrewAI Agent",
@@ -166,7 +166,7 @@ const projects = [
       { name: "Pandas", color: "blue-text-gradient" },
     ],
     image: crew_ai,
-    source_code_link: "",
+    source_code_link: "https://github.com/19pa1a0476/Crew_AI",
   },
   {
     name: "IBPL Code Generator",
@@ -179,7 +179,7 @@ const projects = [
       { name: "Pandas", color: "blue-text-gradient" },
     ],
     image: o9_solution,
-    source_code_link: "",
+    source_code_link: "https://github.com/19pa1a0476/IBPL_Code_Generator",
   }
 ];
 

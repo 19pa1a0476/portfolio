@@ -41,35 +41,6 @@ const About = () => {
     <>
       {/* Flex container with swapped layout on desktop */}
       <div className="flex flex-col md:flex-row-reverse justify-between items-center md:items-center gap-8">
-        
-        {/* Text Section */}
-        <div className="flex-1">
-          <motion.div variants={textVariant()}>
-            <p className={styles.sectionSubText}>Introduction</p>
-            <h2 className={styles.sectionHeadText}>Overview</h2>
-          </motion.div>
-          <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-          I’m Shyam Chandra Kethu, a Software Developer and Consultant at Genpact, specializing in Generative AI and full-stack solutions. I build AI-driven tools—from IDE plugins and orchestration engines to LLM-powered assistants—that enhance productivity and business outcomes.
-        </motion.p>
-
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-          I’ve developed cloud-based AI systems on Azure OpenAI and Amazon Bedrock, deployed scalable applications used by 50+ developers and leadership teams, and contributed to projects like AI recruitment assistants, automated PR reviews, and real-time code generation platforms.
-        </motion.p>
-
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-          Awarded Genpact’s Platinum Award and Titans@TechServices, I combine Java, Python, and AI/ML expertise to craft elegant, efficient solutions. My mission: create intelligent, human-centric technology that accelerates innovation.
-        </motion.p>
-
-        </div>
 
         {/* Image Section */}
         <motion.div
@@ -78,10 +49,38 @@ const About = () => {
         >
           <img
             src={myphoto}
-            alt="Kailash"
+            alt="Shyam"
             className="w-64 h-64 rounded-2xl object-cover border-4 border-[#915EFF] shadow-2xl"
           />
         </motion.div>
+
+        {/* Text Section */}
+        <div className="flex-1">
+          <motion.div variants={textVariant()}>
+            <p className={styles.sectionSubText}>Introduction</p>
+            <h2 className={styles.sectionHeadText}>Overview</h2>
+          </motion.div>
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          >
+            I’m Shyam Chandra Kethu, a Software Developer and Consultant at Genpact, specializing in Generative AI and full-stack solutions. I build AI-driven tools—from IDE plugins and orchestration engines to LLM-powered assistants—that enhance productivity and business outcomes.
+          </motion.p>
+
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          >
+            I’ve developed cloud-based AI systems on Azure OpenAI and Amazon Bedrock, deployed scalable applications used by 50+ developers and leadership teams, and contributed to projects like AI recruitment assistants, automated PR reviews, and real-time code generation platforms.
+          </motion.p>
+
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          >
+            Awarded Genpact’s Platinum Award and Titans@TechServices, I combine Java, Python, and AI/ML expertise to craft elegant, efficient solutions. My mission: create intelligent, human-centric technology that accelerates innovation.
+          </motion.p>
+        </div>
       </div>
 
       {/* Services Section */}
