@@ -32,7 +32,18 @@ import {
   kwiqreply,
   dora,
   o9_solution,
-  crew_ai
+  crew_ai,
+  langchain,
+  langflow,
+  java,
+  vectordb,
+  aws,
+  azure,
+  jenkins,
+  kubernetes,
+  linux,
+  kafka,
+  streamlit
 } from "../assets";
 
 export const navLinks = [
@@ -60,7 +71,7 @@ const services = [
     icon: web,
   },
   {
-    title: "AI Developer",
+    title: "AI Engineer",
     icon: backend,
   },
   {
@@ -78,6 +89,11 @@ const technologies = [
     name: "Python",
     icon: python,
   },
+  {name: "LangChain", icon: langchain},
+  {
+    name: "LangFlow", icon: langflow,
+  },
+  {name: "Java", icon: java},
   {
     name: "Django",
     icon: django,
@@ -86,18 +102,14 @@ const technologies = [
     name: "Postgres",
     icon: postgres,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  }
+  {name: "AWS", icon: aws},
+  {name: "Azure", icon: azure},
+  {name: "Jenkins", icon: jenkins},
+  {name: "Kubernetes", icon: kubernetes},
+  {name: "Linux", icon: linux},
+  {name: "Docker", icon: docker},
+  {name: "Kafka", icon: kafka},
+  {name: "Streamlit", icon: streamlit},
 ];
 
 const experiences = [
@@ -144,7 +156,7 @@ const projects = [
   {
     name: "DORA - AI Chatbot",
     description:
-      "Developed an AI-powered Streamlit app for O9 Solutions, leveraging Retrieval-Augmented Generation and LangChain for automated IBPL code generation. Built Flask backend with webhook integration, optimized for real-time code generation and user-specific logging using OAuth and MySQL. Achieved 30% faster processing with Qdrant Vector DB.",
+      "Developed DORA, an AI-powered chatbot for enterprises using LangChain and Flask. Integrated with Azure OpenAI for advanced NLP capabilities and implemented webhook support for real-time interactions. Utilized OAuth for secure user authentication and MySQL for logging user interactions. Deployed on Azure, ensuring scalability and reliability.",
     tags: [
       { name: "Python", color: "blue-text-gradient" },
       { name: "LangChain", color: "green-text-gradient" },
@@ -158,7 +170,7 @@ const projects = [
   {
     name: "CrewAI Agent",
     description:
-      "Created a machine learning classifier to identify iris flower species using Decision Tree algorithm, achieving 96% accuracy. Compared models (XGBoost, Random Forest, Logistic Regression) and implemented preprocessing for improved efficiency. Deployed via Flask API for real-time predictions with visualizations using Matplotlib and Seaborn.",
+      "Created CrewAI, an AI assistant that integrates with IDEs to enhance developer productivity. Utilized LangChain for natural language processing and built a Flask backend with webhook support for real-time code generation. Implemented OAuth for secure user authentication and MySQL for logging user interactions. Deployed the application on AWS, ensuring scalability and reliability.",
     tags: [
       { name: "Python", color: "blue-text-gradient" },
       { name: "Scikit-learn", color: "pink-text-gradient" },
