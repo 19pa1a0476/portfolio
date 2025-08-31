@@ -8,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-import G from "../assets/g.png";
+import G from "../assets/G.png";
 import study_owl from "../assets/study_owl.png";
 
 // Experience data extracted from your resume
