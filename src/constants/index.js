@@ -104,12 +104,12 @@ const technologies = [
   },
   {name: "AWS", icon: aws},
   {name: "Azure", icon: azure},
-  {name: "Jenkins", icon: jenkins},
-  {name: "Kubernetes", icon: kubernetes},
-  {name: "Linux", icon: linux},
-  {name: "Docker", icon: docker},
-  {name: "Kafka", icon: kafka},
-  {name: "Streamlit", icon: streamlit},
+  // {name: "Jenkins", icon: jenkins},
+  // {name: "Kubernetes", icon: kubernetes},
+  // {name: "Linux", icon: linux},
+  // {name: "Docker", icon: docker},
+  // {name: "Kafka", icon: kafka},
+  // {name: "Streamlit", icon: streamlit},
 ];
 
 const experiences = [
