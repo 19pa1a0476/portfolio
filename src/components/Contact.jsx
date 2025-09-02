@@ -134,7 +134,7 @@ const Contact = () => {
               type='button'
               href=""
               className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary my-2'
-              onClick={() => window.open('https://drive.google.com/file/d/1eRHHGPkPHN84o3zy6a0jOPdZVDw-bIoE/view', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1-UXAiTXuHvVj5WIj4mL4JpK0uUJh_7i-/view?usp=drive_link', '_blank')}
             >Résumé
             </a>
           </div>
