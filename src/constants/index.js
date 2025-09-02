@@ -85,31 +85,31 @@ const services = [
 ];
 
 const technologies = [
-  // {
-  //   name: "Python",
-  //   icon: python,
-  // },
-  // {name: "LangChain", icon: langchain},
-  // {
-  //   name: "LangFlow", icon: langflow,
-  // },
-  // {name: "Java", icon: java},
-  // {
-  //   name: "Django",
-  //   icon: django,
-  // },
-  // {
-  //   name: "Postgres",
-  //   icon: postgres,
-  // },
-  // {name: "AWS", icon: aws},
-  // {name: "Azure", icon: azure},
-  {name: "Jenkins", icon: jenkins},
-  {name: "Kubernetes", icon: kubernetes},
-  {name: "Linux", icon: linux},
-  {name: "Docker", icon: docker},
-  {name: "Kafka", icon: kafka},
-  {name: "Streamlit", icon: streamlit},
+  {
+    name: "Python",
+    icon: python,
+  },
+  {name: "LangChain", icon: langchain},
+  {
+    name: "LangFlow", icon: langflow,
+  },
+  {name: "Java", icon: java},
+  {
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "Postgres",
+    icon: postgres,
+  },
+  {name: "AWS", icon: aws},
+  {name: "Azure", icon: azure},
+  // {name: "Jenkins", icon: jenkins},
+  // {name: "Kubernetes", icon: kubernetes},
+  // {name: "Linux", icon: linux},
+  // {name: "Docker", icon: docker},
+  // {name: "Kafka", icon: kafka},
+  // {name: "Streamlit", icon: streamlit},
 ];
 
 const experiences = [
