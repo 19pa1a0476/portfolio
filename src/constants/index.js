@@ -87,20 +87,20 @@ const services = [
 const technologies = [
   {
     name: "Python",
-    icon: python,
+    icon: python
   },
   {name: "LangChain", icon: langchain},
   {
-    name: "LangFlow", icon: langflow,
+    name: "LangFlow", icon: langflow
   },
   {name: "Java", icon: java},
   {
     name: "Django",
-    icon: django,
+    icon: django
   },
   {
     name: "Postgres",
-    icon: postgres,
+    icon: postgres
   },
   {name: "AWS", icon: aws},
   {name: "Azure", icon: azure},
