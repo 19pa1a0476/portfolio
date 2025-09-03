@@ -18,10 +18,11 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Shyam</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Innovative, award-winning Software Developer & GenAI Consultant.<br className="sm:block hidden" />
-            Specialist in Python, Java, LLMs, and scalable cloud-based AI solutions.<br className="sm:block hidden" />
-            Architected AI platforms and IDE plugins adopted by industry leaders, recognized for technology-driven impact.<br className="sm:block hidden" />
-            <span className="italic text-secondary">“Great vision without great people is irrelevant.” – Jim Collins</span>
+            Award-winning Software Architect specializing in Generative AI. <br className="sm:block hidden" />
+            I build industry-adopted AI platforms and developer tools using Python, Java, and LLMs.
+            <span className="italic text-secondary mt-4 block">
+              “The best way to predict the future is to invent it.” – Alan Kay
+            </span>
           </p>
 
         </div>
