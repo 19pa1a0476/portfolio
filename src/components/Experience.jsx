@@ -14,35 +14,29 @@ import study_owl from "../assets/study_owl.png";
 // Experience data extracted from your resume
 const experiences = [
   {
-    title: "Consultant",
-    company_name: "Genpact",
-    icon: G, // keep empty or provide image as needed
-    iconBg: "#ffffff",
-    date: "Jul 2023 – Present",
-    points: [
-      "Led the development of innovative Generative AI use cases within the Gen-AI Industrialization team using Agile methodologies.",
-      "Developed a Flask-based AI Orchestration Engine integrating Azure OpenAI & Amazon Bedrock, powering 20+ AI use cases.",
-      "Built a GEN-AI API Gateway with modular architecture, robust logging (MySQL, OAuth), and deployed Llama LLMs on Azure VM using Fast API.",
-      "Architected Generative AI IDE plugins for IntelliJ IDEA, enabling code generation, SQL optimization, batch test-data creation, and integrated chat-assist.",
-      "Developed a GitHub AI plugin for automated PR reviews, boosting efficiency by 15-20%.",
-      "Created a Code Progress Tracker Agent POC reducing documentation creation time by 20-25%.",
-      "Built a GenAI-based Recruitment Assister API with LangChain for interviewer support.",
-      "Engineered an LLM-as-a-Judge system for precise code assessment.",
-      "GenAI solutions adopted by 50+ developers and top leadership, with 5+ successful client implementations.",
-      "Achievements: Awarded the ‘Titans@TechServices’ recognition and Genpact’s prestigious ‘Platinum Award’ for exceptional leadership and transformative impact."
-    ],
-  },
+  "title": "Consultant",
+  "company_name": "Genpact",
+  "icon": G,
+  "iconBg": "#ffffff",
+  "date": "Jul 2023 – Present",
+  "points": [
+    "Spearheaded the development of enterprise-grade Generative AI solutions, architecting a core AI Orchestration Engine (Azure OpenAI, Bedrock) powering 20+ applications.",
+    "Built and deployed a suite of AI developer tools, including IDE plugins and a GitHub agent that automated PR reviews, boosting developer efficiency by over 15%.",
+    "Pioneered novel AI agents like an 'LLM-as-a-Judge' for automated code evaluation and a documentation generator that reduced creation time by 25%.",
+    "Drove adoption of GenAI solutions across 50+ developers and senior leadership, leading to 5+ successful client implementations.",
+    "Recognized with Genpact's highest honor, the 'Platinum Award', and the 'Titans@TechServices' title for transformative impact and leadership."
+  ]
+},
   {
     title: "Full Stack Developer Intern",
     company_name: "Study Owl Private Limited",
     icon: study_owl, // keep empty or provide image as needed
     iconBg: "#ffffff",
     date: "Jan 2023 – Jun 2023",
-    points: [
-      "Developed a responsive website using React.js, HTML, and CSS, ensuring seamless cross-device compatibility.",
-      "Implemented backend functionalities in Java, improving data handling and user interaction efficiency.",
-      "Optimized site performance & aesthetics in collaboration with designers, reducing page load time by 30%."
-    ],
+    "points": [
+    "Engineered a full-stack, responsive web application using React.js for the front-end and Java for robust backend data processing.",
+    "Collaborated with designers to optimize site performance and UI/UX, successfully reducing page load times by 30%."
+],
   }
 ];
 
