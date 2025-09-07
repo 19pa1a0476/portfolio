@@ -69,18 +69,30 @@ const services = [
   {
     title: "Python Developer",
     icon: web,
+    description:
+      "I design clean, scalable Python solutions — from automation scripts to enterprise-grade data pipelines.",
+    backIcon: "🐍", // Python relevant emoji
   },
   {
     title: "AI Engineer",
     icon: backend,
+    description:
+      "I create Generative AI agents, LangChain-powered apps, and LLM orchestration engines for real-world use cases.",
+    backIcon: "🤖", // Robot emoji for AI
   },
   {
     title: "FullStack Developer",
     icon: mobile,
+    description:
+      "I build responsive, production-ready apps with React, Django, and Node — deployed on AWS & Azure.",
+    backIcon: "💻", // Laptop for coding
   },
   {
     title: "Team Player",
     icon: creator,
+    description:
+      "I collaborate with cross-functional teams, mentor juniors, and deliver high-impact solutions under tight deadlines.",
+    backIcon: "🤝", // Handshake for teamwork
   },
 ];
 
